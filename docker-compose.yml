@@ -1,6 +1,7 @@
 version: '3'
 services: 
   robocar:
-    image: osrf/ros2:bouncy-ros-core
+    image: blown302/ros2-core
+    build: .
     volumes:
       - ./:/robocar

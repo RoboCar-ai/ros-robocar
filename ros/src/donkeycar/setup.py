@@ -7,9 +7,6 @@ setup(
     version='0.6.1',
     packages=[],
     py_modules=[
-        'publisher_old_school',
-        'publisher_local_function',
-        'publisher_member_function',
         'drive_supervisor'
     ],
     data_files=[
@@ -35,9 +32,6 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'publisher_old_school = publisher_old_school:main',
-            'publisher_local_function = publisher_local_function:main',
-            'publisher_member_function = publisher_member_function:main',
             'drive_supervisor = drive_supervisor:main'
         ],
     },

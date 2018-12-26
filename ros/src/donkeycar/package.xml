@@ -2,10 +2,10 @@
 <?xml-model href="http://download.ros.org/schema/package_format2.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="2">
   <name>donkeycar</name>
-  <version>0.6.1</version>
-  <description>Examples of minimal publishers using rclpy.</description>
+  <version>0.0.1</version>
+  <description>ROS2 wrapper for the donkey library</description>
 
-  <maintainer email="sloretz@openrobotics.org">Shane Loretz</maintainer>
+  <maintainer email="itpro1994@gmail.com">Shane Loretz</maintainer>
   <license>Apache License 2.0</license>
 
   <exec_depend>rclpy</exec_depend>

@@ -1,5 +1,7 @@
 ros/build
 ros/install
 ros/log
+ros/devel
+ros/.catkin_workspace
 .vscode
 .idea

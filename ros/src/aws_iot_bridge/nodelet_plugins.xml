@@ -1,0 +1,7 @@
+<library path="lib/libaws_iot_bridge">
+    <class name="aws_iot_bridge/bridge" type="robocar::iot::Bridge" base_class_type="nodelet::Nodelet">
+        <description>
+            Bridge for external communication. Publishes telemetry and subscribes to commands to pass onto the ros system.
+        </description>
+    </class>
+</library>

@@ -7,10 +7,10 @@
 
 PLUGINLIB_EXPORT_CLASS(robocar::iot::Bridge, nodelet::Nodelet)
 
-namespace robocar {
-    namespace iot {
-        void Bridge::onInit() {
-            NODELET_INFO("Initializing AWS BRIDGE...");
-        }
-    }
-};
+
+void robocar::iot::Bridge::onInit() {
+    NODELET_INFO("Initializing AWS BRIDGE...");
+    robocar::iot::AwsIotClient client;
+    client.init();
+}
+

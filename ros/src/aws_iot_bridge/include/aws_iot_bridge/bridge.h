@@ -5,6 +5,7 @@
 #ifndef ROS_ROBOCAR_BRIDGE_H
 #define ROS_ROBOCAR_BRIDGE_H
 #include <nodelet/nodelet.h>
+#include "aws_iot_client.h"
 
 namespace robocar {
     namespace iot {

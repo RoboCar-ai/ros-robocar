@@ -1,0 +1,171 @@
+Performing C SOURCE FILE Test WARNING_C_FLAG_Weverything failed with the following output:
+Change Dir: /home/blown302/aws-iot-device-sdk-embedded-C/external_libs/CppUTest/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_78338/fast"
+make[1]: Entering directory '/home/blown302/aws-iot-device-sdk-embedded-C/external_libs/CppUTest/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_78338.dir/build.make CMakeFiles/cmTC_78338.dir/build
+make[2]: Entering directory '/home/blown302/aws-iot-device-sdk-embedded-C/external_libs/CppUTest/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_78338.dir/src.c.o
+/usr/bin/cc   -DWARNING_C_FLAG_Weverything   -Weverything -o CMakeFiles/cmTC_78338.dir/src.c.o   -c /home/blown302/aws-iot-device-sdk-embedded-C/external_libs/CppUTest/CMakeFiles/CMakeTmp/src.c
+cc: error: unrecognized command line option '-Weverything'
+CMakeFiles/cmTC_78338.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_78338.dir/src.c.o' failed
+make[2]: *** [CMakeFiles/cmTC_78338.dir/src.c.o] Error 1
+make[2]: Leaving directory '/home/blown302/aws-iot-device-sdk-embedded-C/external_libs/CppUTest/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_78338/fast' failed
+make[1]: *** [cmTC_78338/fast] Error 2
+make[1]: Leaving directory '/home/blown302/aws-iot-device-sdk-embedded-C/external_libs/CppUTest/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test WARNING_C_FLAG_Wno-disabled-macro-expansion failed with the following output:
+Change Dir: /home/blown302/aws-iot-device-sdk-embedded-C/external_libs/CppUTest/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8155e/fast"
+make[1]: Entering directory '/home/blown302/aws-iot-device-sdk-embedded-C/external_libs/CppUTest/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_8155e.dir/build.make CMakeFiles/cmTC_8155e.dir/build
+make[2]: Entering directory '/home/blown302/aws-iot-device-sdk-embedded-C/external_libs/CppUTest/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8155e.dir/src.c.o
+/usr/bin/cc   -DWARNING_C_FLAG_Wno-disabled-macro-expansion   -Wno-disabled-macro-expansion -o CMakeFiles/cmTC_8155e.dir/src.c.o   -c /home/blown302/aws-iot-device-sdk-embedded-C/external_libs/CppUTest/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:19: warning: ISO C99 requires whitespace after the macro name
+cc1: warning: unrecognized command line option '-Wno-disabled-macro-expansion'
+Linking C executable cmTC_8155e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8155e.dir/link.txt --verbose=1
+/usr/bin/cc  -DWARNING_C_FLAG_Wno-disabled-macro-expansion    -rdynamic CMakeFiles/cmTC_8155e.dir/src.c.o  -o cmTC_8155e 
+make[2]: Leaving directory '/home/blown302/aws-iot-device-sdk-embedded-C/external_libs/CppUTest/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/blown302/aws-iot-device-sdk-embedded-C/external_libs/CppUTest/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test WARNING_C_FLAG_pedantic-errors failed with the following output:
+Change Dir: /home/blown302/aws-iot-device-sdk-embedded-C/external_libs/CppUTest/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e5af1/fast"
+make[1]: Entering directory '/home/blown302/aws-iot-device-sdk-embedded-C/external_libs/CppUTest/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_e5af1.dir/build.make CMakeFiles/cmTC_e5af1.dir/build
+make[2]: Entering directory '/home/blown302/aws-iot-device-sdk-embedded-C/external_libs/CppUTest/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e5af1.dir/src.c.o
+/usr/bin/cc   -DWARNING_C_FLAG_pedantic-errors   -pedantic-errors -o CMakeFiles/cmTC_e5af1.dir/src.c.o   -c /home/blown302/aws-iot-device-sdk-embedded-C/external_libs/CppUTest/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:24: error: ISO C99 requires whitespace after the macro name
+CMakeFiles/cmTC_e5af1.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_e5af1.dir/src.c.o' failed
+make[2]: *** [CMakeFiles/cmTC_e5af1.dir/src.c.o] Error 1
+make[2]: Leaving directory '/home/blown302/aws-iot-device-sdk-embedded-C/external_libs/CppUTest/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_e5af1/fast' failed
+make[1]: *** [cmTC_e5af1/fast] Error 2
+make[1]: Leaving directory '/home/blown302/aws-iot-device-sdk-embedded-C/external_libs/CppUTest/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test WARNING_CXX_FLAG_Weverything failed with the following output:
+Change Dir: /home/blown302/aws-iot-device-sdk-embedded-C/external_libs/CppUTest/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_75e0b/fast"
+make[1]: Entering directory '/home/blown302/aws-iot-device-sdk-embedded-C/external_libs/CppUTest/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_75e0b.dir/build.make CMakeFiles/cmTC_75e0b.dir/build
+make[2]: Entering directory '/home/blown302/aws-iot-device-sdk-embedded-C/external_libs/CppUTest/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_75e0b.dir/src.cxx.o
+/usr/bin/c++    -DWARNING_CXX_FLAG_Weverything   -Weverything -o CMakeFiles/cmTC_75e0b.dir/src.cxx.o -c /home/blown302/aws-iot-device-sdk-embedded-C/external_libs/CppUTest/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Weverything'
+CMakeFiles/cmTC_75e0b.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_75e0b.dir/src.cxx.o' failed
+make[2]: *** [CMakeFiles/cmTC_75e0b.dir/src.cxx.o] Error 1
+make[2]: Leaving directory '/home/blown302/aws-iot-device-sdk-embedded-C/external_libs/CppUTest/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_75e0b/fast' failed
+make[1]: *** [cmTC_75e0b/fast] Error 2
+make[1]: Leaving directory '/home/blown302/aws-iot-device-sdk-embedded-C/external_libs/CppUTest/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test WARNING_CXX_FLAG_Wno-disabled-macro-expansion failed with the following output:
+Change Dir: /home/blown302/aws-iot-device-sdk-embedded-C/external_libs/CppUTest/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ec3da/fast"
+make[1]: Entering directory '/home/blown302/aws-iot-device-sdk-embedded-C/external_libs/CppUTest/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_ec3da.dir/build.make CMakeFiles/cmTC_ec3da.dir/build
+make[2]: Entering directory '/home/blown302/aws-iot-device-sdk-embedded-C/external_libs/CppUTest/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ec3da.dir/src.cxx.o
+/usr/bin/c++    -DWARNING_CXX_FLAG_Wno-disabled-macro-expansion   -Wno-disabled-macro-expansion -o CMakeFiles/cmTC_ec3da.dir/src.cxx.o -c /home/blown302/aws-iot-device-sdk-embedded-C/external_libs/CppUTest/CMakeFiles/CMakeTmp/src.cxx
+<command-line>:0:21: warning: ISO C++11 requires whitespace after the macro name
+cc1plus: warning: unrecognized command line option '-Wno-disabled-macro-expansion'
+Linking CXX executable cmTC_ec3da
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ec3da.dir/link.txt --verbose=1
+/usr/bin/c++   -DWARNING_CXX_FLAG_Wno-disabled-macro-expansion    -rdynamic CMakeFiles/cmTC_ec3da.dir/src.cxx.o  -o cmTC_ec3da 
+make[2]: Leaving directory '/home/blown302/aws-iot-device-sdk-embedded-C/external_libs/CppUTest/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/blown302/aws-iot-device-sdk-embedded-C/external_libs/CppUTest/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test WARNING_CXX_FLAG_pedantic-errors failed with the following output:
+Change Dir: /home/blown302/aws-iot-device-sdk-embedded-C/external_libs/CppUTest/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e625f/fast"
+make[1]: Entering directory '/home/blown302/aws-iot-device-sdk-embedded-C/external_libs/CppUTest/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_e625f.dir/build.make CMakeFiles/cmTC_e625f.dir/build
+make[2]: Entering directory '/home/blown302/aws-iot-device-sdk-embedded-C/external_libs/CppUTest/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e625f.dir/src.cxx.o
+/usr/bin/c++    -DWARNING_CXX_FLAG_pedantic-errors   -pedantic-errors -o CMakeFiles/cmTC_e625f.dir/src.cxx.o -c /home/blown302/aws-iot-device-sdk-embedded-C/external_libs/CppUTest/CMakeFiles/CMakeTmp/src.cxx
+<command-line>:0:26: error: ISO C++11 requires whitespace after the macro name
+CMakeFiles/cmTC_e625f.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_e625f.dir/src.cxx.o' failed
+make[2]: *** [CMakeFiles/cmTC_e625f.dir/src.cxx.o] Error 1
+make[2]: Leaving directory '/home/blown302/aws-iot-device-sdk-embedded-C/external_libs/CppUTest/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_e625f/fast' failed
+make[1]: *** [cmTC_e625f/fast] Error 2
+make[1]: Leaving directory '/home/blown302/aws-iot-device-sdk-embedded-C/external_libs/CppUTest/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test WARNING_CXX_FLAG_Wno-global-constructors failed with the following output:
+Change Dir: /home/blown302/aws-iot-device-sdk-embedded-C/external_libs/CppUTest/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d35f8/fast"
+make[1]: Entering directory '/home/blown302/aws-iot-device-sdk-embedded-C/external_libs/CppUTest/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_d35f8.dir/build.make CMakeFiles/cmTC_d35f8.dir/build
+make[2]: Entering directory '/home/blown302/aws-iot-device-sdk-embedded-C/external_libs/CppUTest/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d35f8.dir/src.cxx.o
+/usr/bin/c++    -DWARNING_CXX_FLAG_Wno-global-constructors   -Wno-global-constructors -o CMakeFiles/cmTC_d35f8.dir/src.cxx.o -c /home/blown302/aws-iot-device-sdk-embedded-C/external_libs/CppUTest/CMakeFiles/CMakeTmp/src.cxx
+<command-line>:0:21: warning: ISO C++11 requires whitespace after the macro name
+cc1plus: warning: unrecognized command line option '-Wno-global-constructors'
+Linking CXX executable cmTC_d35f8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d35f8.dir/link.txt --verbose=1
+/usr/bin/c++   -DWARNING_CXX_FLAG_Wno-global-constructors    -rdynamic CMakeFiles/cmTC_d35f8.dir/src.cxx.o  -o cmTC_d35f8 
+make[2]: Leaving directory '/home/blown302/aws-iot-device-sdk-embedded-C/external_libs/CppUTest/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/blown302/aws-iot-device-sdk-embedded-C/external_libs/CppUTest/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test WARNING_CXX_FLAG_Wno-exit-time-destructors failed with the following output:
+Change Dir: /home/blown302/aws-iot-device-sdk-embedded-C/external_libs/CppUTest/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_75f59/fast"
+make[1]: Entering directory '/home/blown302/aws-iot-device-sdk-embedded-C/external_libs/CppUTest/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_75f59.dir/build.make CMakeFiles/cmTC_75f59.dir/build
+make[2]: Entering directory '/home/blown302/aws-iot-device-sdk-embedded-C/external_libs/CppUTest/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_75f59.dir/src.cxx.o
+/usr/bin/c++    -DWARNING_CXX_FLAG_Wno-exit-time-destructors   -Wno-exit-time-destructors -o CMakeFiles/cmTC_75f59.dir/src.cxx.o -c /home/blown302/aws-iot-device-sdk-embedded-C/external_libs/CppUTest/CMakeFiles/CMakeTmp/src.cxx
+<command-line>:0:21: warning: ISO C++11 requires whitespace after the macro name
+cc1plus: warning: unrecognized command line option '-Wno-exit-time-destructors'
+Linking CXX executable cmTC_75f59
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75f59.dir/link.txt --verbose=1
+/usr/bin/c++   -DWARNING_CXX_FLAG_Wno-exit-time-destructors    -rdynamic CMakeFiles/cmTC_75f59.dir/src.cxx.o  -o cmTC_75f59 
+make[2]: Leaving directory '/home/blown302/aws-iot-device-sdk-embedded-C/external_libs/CppUTest/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/blown302/aws-iot-device-sdk-embedded-C/external_libs/CppUTest/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test WARNING_CXX_FLAG_Wno-weak-vtables failed with the following output:
+Change Dir: /home/blown302/aws-iot-device-sdk-embedded-C/external_libs/CppUTest/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_deae5/fast"
+make[1]: Entering directory '/home/blown302/aws-iot-device-sdk-embedded-C/external_libs/CppUTest/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_deae5.dir/build.make CMakeFiles/cmTC_deae5.dir/build
+make[2]: Entering directory '/home/blown302/aws-iot-device-sdk-embedded-C/external_libs/CppUTest/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_deae5.dir/src.cxx.o
+/usr/bin/c++    -DWARNING_CXX_FLAG_Wno-weak-vtables   -Wno-weak-vtables -o CMakeFiles/cmTC_deae5.dir/src.cxx.o -c /home/blown302/aws-iot-device-sdk-embedded-C/external_libs/CppUTest/CMakeFiles/CMakeTmp/src.cxx
+<command-line>:0:21: warning: ISO C++11 requires whitespace after the macro name
+cc1plus: warning: unrecognized command line option '-Wno-weak-vtables'
+Linking CXX executable cmTC_deae5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_deae5.dir/link.txt --verbose=1
+/usr/bin/c++   -DWARNING_CXX_FLAG_Wno-weak-vtables    -rdynamic CMakeFiles/cmTC_deae5.dir/src.cxx.o  -o cmTC_deae5 
+make[2]: Leaving directory '/home/blown302/aws-iot-device-sdk-embedded-C/external_libs/CppUTest/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/blown302/aws-iot-device-sdk-embedded-C/external_libs/CppUTest/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }

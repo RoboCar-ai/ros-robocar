@@ -112,17 +112,32 @@ catkin_package(
 ###########
 ## Build ##
 ###########
-
+set(AWS_SDK include/aws_iot_bridge/aws_sdk)
 ## Specify additional locations of header files
 ## Your package locations should be listed before other locations
 include_directories(
-# include
-  ${catkin_INCLUDE_DIRS}
+   include/aws_iot_bridge
+   ${catkin_INCLUDE_DIRS}
+   ${AWS_SDK}/include
+   ${AWS_SDK}/platform/linux/common
+   ${AWS_SDK}/platform/linux/mbedtls
+   ${AWS_SDK}/external_libs/mbedTLS/include
+)
+
+file(GLOB mbedTLS_SRC
+    ${AWS_SDK}/external_libs/mbedTLS/library/*.c
 )
 
 ## Declare a C++ library
 add_library(${PROJECT_NAME}
     src/bridge.cpp
+    src/aws_iot_client.cpp
+    ${AWS_SDK}/src/aws_iot_mqtt_client.c
+    ${AWS_SDK}/src/aws_iot_mqtt_client_connect.c
+    ${AWS_SDK}/src/aws_iot_mqtt_client_common_internal.c
+    ${AWS_SDK}/platform/linux/mbedtls/network_mbedtls_wrapper.c
+    ${mbedTLS_SRC}
+    ${AWS_SDK}/platform/linux/common/timer.c
 )
 
 ## Add cmake target dependencies of the library
